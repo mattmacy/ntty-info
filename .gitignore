@@ -1,0 +1,23 @@
+# kernel module build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+.*.cmd
+*.symvers
+Module.symvers
+modules.order
+.tmp_versions/
+
+# compiled userspace binaries
+/setinfold
+/infotest
+/dddemo
+/vm/init
+
+# VM harness generated files
+/vm/vmlinuz
+/vm/initramfs.cpio.gz
+/vm/boot.log
+/vm/root/
+*.deb
